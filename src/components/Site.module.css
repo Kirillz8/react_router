@@ -6,21 +6,21 @@
     color: white;
 }
 
-.body{
+.body {
     display: flex;
 }
 
-.nav{
-   background-color: white;
+.nav {
+    background-color: white;
     min-height: 400px;
     width: 30%;
-    color:#282c34;
+    color: #282c34;
     font-size: 30px;
 
 }
 
-.content{
-    background-color:#282c34;
+.content {
+    background-color: #282c34;
     min-height: 400px;
     width: 70%;
     color: white;
@@ -43,4 +43,17 @@
 .nav a.active {
     color: #7fb8f1;
     text-decoration: underline;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
 }
