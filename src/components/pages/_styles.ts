@@ -4,7 +4,7 @@ const NavWrapper = styled.div`
   margin-left: 10px;
   font-size: 20px;
 
-  NavWrapper > a {
+  & > a {
     text-decoration: none;
     color: #1e3786;
   }
