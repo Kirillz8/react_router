@@ -21,7 +21,8 @@ const PATH = {
     MODEL: '/:model/:id',
     PROTECTED: '/protected',
     ERROR: '/error',
-    LOGIN: '/login'
+    LOGIN: '/login',
+    MAIN: ''
 
 } as const
 
@@ -53,6 +54,10 @@ const publicRoutes: RouteObject[] = [
     {
         path: PATH.LOGIN,
         element: <Login/>,
+    },
+    {
+        path: PATH.MAIN,
+        element: <Navigate to={PATH.ADIDAS}/>,
     }
 ]
 const privateRoutes: RouteObject[] = [
